@@ -251,7 +251,7 @@
     padding: 16px 16px 0;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 0px;
     scrollbar-width: thin;
     scrollbar-color: var(--bg-active) transparent;
   }
@@ -485,6 +485,7 @@
     to   { opacity: 1; transform: translateY(0); }
   }
   .msg-group { animation: fadeUp 0.18s ease; }
+  .msg-group.consecutive { padding-top: 1px; padding-bottom: 1px; }
 
   /* scrollbar */
   * { scrollbar-width: thin; scrollbar-color: var(--bg-active) transparent; }
